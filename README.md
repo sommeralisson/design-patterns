@@ -22,7 +22,17 @@ Para resolver esses problemas, foram implementados os seguintes padrões:
 * **Por que:** Centraliza a lógica de criação de objetos complexos (Quartos Standard vs Luxo). Facilita adicionar novos tipos de quartos sem quebrar o código cliente.
 * **Como:** `RoomFactory` decide qual instância concreta de `Room` retornar baseada em uma string de entrada.
 
-*(Bônus) Singleton implementado em `infra/logger.py` para logs centralizados.*
+## Como Testar e Executar
+
+Para que os imports funcionem corretamente, é fundamental executar todos os comandos a partir da **pasta raiz** do projeto (a pasta onde está este README).
+
+### 1. Execução do Sistema (Cenário de Uso)
+Para ver os padrões de projeto interagindo no console (Menu/CLI):
+
+```bash
+python app/main.py
+
+## Singleton implementado em `infra/logger.py` para logs centralizados.*
 
 ## Diagrama de Classes (Simplificado)
 
