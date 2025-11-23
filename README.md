@@ -68,3 +68,10 @@ Para ver os padrões de projeto interagindo no console (Menu/CLI):
 ```bash
 python app/main.py
 ```
+
+### 2. Execução e teste do singleton
+Para validar o singleton e que a Strategy calcula certo rode o comando
+
+```bash
+python -m unittest tests/test_patterns.py
+```
